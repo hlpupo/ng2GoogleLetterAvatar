@@ -1,5 +1,7 @@
 # Ng2GoogleLetterAvatar V 1.0.0
 
+![letter-avatar](https://raw.githubusercontent.com/hlpupo/ng2GoogleLetterAvatar/master/src/assets/demo.jpg)
+
 
 ```bash
 install npm install --save ng2-google-letter-avatar
