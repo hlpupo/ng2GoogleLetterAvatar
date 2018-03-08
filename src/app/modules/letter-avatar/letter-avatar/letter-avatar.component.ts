@@ -18,8 +18,16 @@ export class LetterAvatarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.letter = (<String>this.firstName).trim().charAt(0);
-    this.letterClass = 'letter_' + this.letter.toLocaleUpperCase();
+    this.letter = '';
+    if (this.firstName !== ''  && typeof this.firstName !== "undefined") {
+      this.letter += (<String>this.firstName).trim().charAt(0);
+    }
+
+    if (this.lastName !== '' && typeof this.lastName !== "undefined") {
+      this.letter += (<String>this.lastName).trim().charAt(0);
+    }
+
+    this.letterClass = 'letter_' + this.letter.charAt(0).toLocaleUpperCase();
   }
 
 }

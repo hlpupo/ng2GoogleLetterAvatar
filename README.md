@@ -1,7 +1,3 @@
-<h1 align="center">
-
-</h1>
-
 # Ng2GoogleLetterAvatar V 1.0.0
 
 
@@ -21,7 +17,7 @@ In your module
 import: [ LetterAvatarModule ]
 ```
 
-##Implementation
+## Implementation
 
 ```bash
 <ng-google-letter-avatar [firstName]="contact.firstName" [lastName]="contact.lastName" shape="circle"></ng-google-letter-avatar>

@@ -1,7 +1,29 @@
 {
     "name": "ng2-google-letter-avatar",
     "version": "1.0.0",
+    "description": "Create avatar as google letter avatar",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hlpupo/ng2GoogleLetterAvatar.git"
+    },
+    "keywords": [
+        "angular2",
+        "ng2",
+        "angular",
+        "google",
+        "avatar",
+        "avatar letter",
+        "typescript",
+        "google avatar",
+        "npm",
+        "angular 4"
+    ],
+    "author": "Reyes, Hector<hlpupodev@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/hlpupo/ng2GoogleLetterAvatar/issues"
+    },
+    "homepage": "https://github.com/hlpupo/ng2GoogleLetterAvatar#readme",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
