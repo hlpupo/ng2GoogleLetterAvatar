@@ -1,0 +1,24 @@
+// Material colors map
+$letterColorsMap: ( A: #4FC3F7, B:#616161, C:#01579B, D:#311B92, E:#E57373, F:#4A148C, G:#F57F17, H:#AB47BC, I:#006064, J:#FFAB00, K:#2196F3, L:#1A237E, M:#C51162, N:#8C9EFF, O:#1B5E20, P:#BF360C, Q:#795548, R:#0D47A1, S:#4CAF50, T:#827717, U:#78909C, V:#004D40, W:#FFB300, X:#FF9800, Y:#FFEB3B, Z:#FFEB3B);
+@mixin generateColors($bgC) {
+    color: #ffffff;
+    background-color: $bgC !important;
+}
+
+@each $letter,
+$color in $letterColorsMap {
+    .letter_#{$letter} {
+        @include generateColors($color)
+    }
+}
+
+.ng2-avatar-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-transform: uppercase;
+}
