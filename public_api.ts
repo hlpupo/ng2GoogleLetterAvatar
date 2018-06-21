@@ -1,2 +1,2 @@
-export { LetterAvatarModule } from './src/app/modules/letter-avatar/letter-avatar.module';
+export { LetterAvatarModule } from './src/app/letter-avatar/letter-avatar.module';
 

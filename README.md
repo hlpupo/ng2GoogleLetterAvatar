@@ -1,41 +1,27 @@
-# Ng2GoogleLetterAvatar V 1.0.0
+# Ng2GoogleLetterAvatar
 
-![letter-avatar](https://raw.githubusercontent.com/hlpupo/ng2GoogleLetterAvatar/master/src/assets/demo.jpg)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Development server
 
-```bash
-install npm install --save ng2-google-letter-avatar
-```
-The main idea is create one avatar as the same google style using material colors.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-## How tu use
-```bash
-import { LetterAvatarModule } from 'ng2-google-letter-avatar';
-```
-In your module 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```bash
-import: [ LetterAvatarModule ]
-```
+## Build
 
-## Implementation
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-```bash
-<ng-google-letter-avatar [firstName]="contact.firstName" [lastName]="contact.lastName" shape="circle"></ng-google-letter-avatar>
+## Running unit tests
 
-<ng-google-letter-avatar firstName="first" lastName="lastName" shape="circle"></ng-google-letter-avatar>            
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
-## GitHub
- [https://github.com/hlpupo/ng2GoogleLetterAvatar](https://github.com/hlpupo/ng2GoogleLetterAvatar).
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Autor
-[@hlpupo](https://github.com/hlpupo)
+## Further help
 
-## Licence
-
-MIT
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
