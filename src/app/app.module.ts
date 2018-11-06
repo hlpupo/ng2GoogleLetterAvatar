@@ -1,8 +1,12 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppComponent } from './app.component';
-import { LetterAvatarModule } from './letter-avatar/letter-avatar.module';
+import { LetterAvatarModule } from './modules/letter-avatar/letter-avatar.module';
+
+
 
 @NgModule({
   declarations: [
@@ -10,7 +14,7 @@ import { LetterAvatarModule } from './letter-avatar/letter-avatar.module';
   ],
   imports: [
     BrowserModule,
-    LetterAvatarModule
+    LetterAvatarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
