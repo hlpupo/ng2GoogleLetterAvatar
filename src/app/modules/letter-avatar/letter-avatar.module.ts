@@ -17,7 +17,7 @@ import { LetterAvatarComponent } from './letter-avatar/letter-avatar.component';
 export class LetterAvatarModule {
   constructor( @Optional() @SkipSelf() parentModule: LetterAvatarModule) {
     if (parentModule) {
-      throw new Error(
+      console.info(
         'LetterAvatarModule is already loaded. Import it in the MainModule only');
     }
   }
